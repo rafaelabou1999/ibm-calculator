@@ -87,8 +87,7 @@ public class MyIBM extends JFrame implements ActionListener {
         float dataWeight = parseFloat(tf2.getText());
 
         float total = dataWeight / (dataHeight * dataHeight);
-        String totalFormat = new DecimalFormat("###.00").format(total);
-        button.setText("YOUR IBM IS " + totalFormat);
+        button.setText("YOUR IBM IS " + total);
         button.setBackground(Color.white);
         button.setForeground(Color.BLACK);
         button.setBounds(5, 140, 40, 10);
